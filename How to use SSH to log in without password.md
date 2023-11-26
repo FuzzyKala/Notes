@@ -10,11 +10,10 @@
    `[RT-N56U_B1 /home/root]#`
 
 
-4. generate the ssh-key by typing the command (I have no idea why my router only accepts ecdsa):\
+3. generate the ssh-key by typing the command (I have no idea why my router only accepts ecdsa):\
    `kala@G614JV:~$ ssh-keygen -t ecdsa`\
 
-
-6. exit to the local shell and type (it might need you to type the password in this step.):\
+4. exit to the local shell and type (it might need you to type the password in this step.):\
    `kala@G614JV:~$ ssh-copy-id -i ~/.ssh/id_ecdsa.pub admin@192.168.123.1`\
    
    `/usr/bin/ssh-copy-id: INFO: Source of key(s) to be installed: "/home/kala/.ssh/id_ecdsa.pub"`\
@@ -25,7 +24,7 @@
    `and check to make sure that only the key(s) you wanted were added.`\
 
 
-8. login without password\
+5. login without password\
    `kala@G614JV:~$ ssh admin@192.168.123.1`\
    
    `BusyBox v1.29.3 (2022-01-02 20:45:37 CST) built-in shell (ash)`\
