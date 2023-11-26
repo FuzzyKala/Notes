@@ -24,7 +24,8 @@
 
 6. login without password\
    `kala@G614JV:~$ ssh admin@192.168.123.1`\
-   `BusyBox v1.29.3 (2022-01-02 20:45:37 CST) built-in shell (ash)`\
-   `Enter 'help' for a list of built-in commands.`\
-   `[RT-N56UB1-newif3D2-512M 3.4.3.9-099_22-01-3]# 2023-11-26 16:58:34`\
-   `[RT-N56U_B1 /home/root]#`
+   
+   >`BusyBox v1.29.3 (2022-01-02 20:45:37 CST) built-in shell (ash)`\
+   >`Enter 'help' for a list of built-in commands.`\
+   >`[RT-N56UB1-newif3D2-512M 3.4.3.9-099_22-01-3]# 2023-11-26 16:58:34`\
+   >`[RT-N56U_B1 /home/root]#`
