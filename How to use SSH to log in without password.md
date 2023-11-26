@@ -11,7 +11,7 @@
 
 
 4. generate the ssh-key by typing the command (I have no idea why my router only accepts ecdsa):\
-   `kala@G614JV:~$ ssh-keygen -t ecdsa
+   >```kala@G614JV:~$ ssh-keygen -t ecdsa```
    Generating public/private ecdsa key pair.
    Enter file in which to save the key (/home/kala/.ssh/id_ecdsa): 
    /home/kala/.ssh/id_ecdsa already exists.
@@ -33,7 +33,7 @@
    |        = * = oo.|
    |       .   oEo.o.|
    |           .++o..|
-   +----[SHA256]-----+`
+   +----[SHA256]-----+```
 
 
 6. exit to the local shell and type (it might need you to type the password in this step.):\
