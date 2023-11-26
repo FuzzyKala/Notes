@@ -11,13 +11,13 @@
 
 
 3. generate the ssh-key by typing the command (I have no idea why my router only accepts ecdsa):\
-   `kala@G614JV:~$ ssh-keygen -t ecdsa`\
+   `kala@G614JV:~$ ssh-keygen -t ecdsa`
 
 4. exit to the local shell and type (it might need you to type the password in this step.):\
-   `kala@G614JV:~$ ssh-copy-id -i ~/.ssh/id_ecdsa.pub admin@192.168.123.1`\
+   `kala@G614JV:~$ ssh-copy-id -i ~/.ssh/id_ecdsa.pub admin@192.168.123.1`
    
-   `/usr/bin/ssh-copy-id: INFO: Source of key(s) to be installed: "/home/kala/.ssh/id_ecdsa.pub"`\
-   `/usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed`\
+   `/usr/bin/ssh-copy-id: INFO: Source of key(s) to be installed: "/home/kala/.ssh/id_ecdsa.pub"`
+   `/usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed`
    `/usr/bin/ssh-copy-id: INFO: 1 key(s) remain to be installed -- if you are prompted now it is to install the new keys`\
    `Number of key(s) added: 1`\
    `Now try logging into the machine, with:   "ssh 'admin@192.168.123.1'"`\
