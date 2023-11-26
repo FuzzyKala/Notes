@@ -1,4 +1,4 @@
-1. #make sure the SSH function is available and enable on the remote device.\
+#1. make sure the SSH function is available and enable on the remote device.\
    ![image](./images/1.png)
 
 2. try to use ssh to login (still need password), make sure you can login properly, in my case:\
