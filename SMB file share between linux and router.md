@@ -1,4 +1,4 @@
-1.  It's supposed to turn on SMB server function on router's GUI or use following command .\
+1.  It's supposed to turn on SMB server function on router's GUI or follow the step below.\
     *   Go to /etc to find out **smb.conf** \
     *   `[Windows]\
          path = /media/Windows\
