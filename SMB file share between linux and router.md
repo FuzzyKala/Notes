@@ -3,10 +3,10 @@ It's supposed to turn on the SMB server function on the router's GUI or follow t
     *   Go to /etc to find out **smb.conf** \
     *   add the code at the bottom of the configuration file.\
       ```javascript
-        [Windows]\
-        path = /media/Windows\
-        guest ok = yes\
-        writeable = yes\
+        [Windows]
+        path = /media/Windows
+        guest ok = yes
+        writeable = yes
       ```
     *   Go to /media/Windows/sharefoldername or /home/username/share depending on your devices.
 
