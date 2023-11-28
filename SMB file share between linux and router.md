@@ -1,13 +1,13 @@
 #   Router/Server side
 It's supposed to turn on the SMB server function on the router's GUI or follow the steps below.\
     *   Go to /etc to find out **smb.conf** \
-    *   add the configuration at the bottom of the configuration file.\
-        ```
+    *   add the code at the bottom of the configuration file.\
+    <pre>
         [Windows]\
         path = /media/Windows\
         guest ok = yes\
         writeable = yes\
-        ```
+   </pre>
     *   Go to /media/Windows/sharefoldername or /home/username/share depending on your devices.
 
 #   Laptop/Client Side
