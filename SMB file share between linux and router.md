@@ -8,7 +8,7 @@ path = /media/Windows
 guest ok = yes
 writeable = yes
 ```
-*   Go to /media/Windows/sharefoldername or /home/username/share depending on your devices.
+*   Now the path will be /media/Windows/sharefoldername or /home/username/share depending on your devices.
 
 #   Laptop/Client Side
 open folder and use **connect to the server** then type the path, in my case "smb://192.168.123.1/".\
