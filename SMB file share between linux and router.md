@@ -11,5 +11,5 @@ It's supposed to turn on the SMB server function on the router's GUI or follow t
     *   Go to /media/Windows/sharefoldername or /home/username/share depending on your devices.
 
 #   Laptop/Client Side
-open folder and use **connect to the server** then type the path, in my case "smb://192.168.123.1/".
+open folder and use **connect to the server** then type the path, in my case "smb://192.168.123.1/".\
 after that, you should be able to see the folder called 'Windows/share' or whatever you named before.
