@@ -1,5 +1,5 @@
 1.  It's supposed to turn on SMB server function on router's GUI or use following command .\
-    *Go to /etc to find out **smb.conf**\
+    *Go to /etc to find out **smb.conf** \
     *`[Windows]\
       path = /media/Windows\
       guest ok = yes\
