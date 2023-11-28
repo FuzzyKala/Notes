@@ -1,5 +1,5 @@
 #   Router/Server side
-It's supposed to turn on the SMB server function on the router's GUI or follow the steps below.<br\>
+It's supposed to turn on the SMB server function on the router's GUI or follow the steps below.\
     *   Go to /etc to find out **smb.conf** \
     *   add the configuration at the bottom of the configuration file.
         ```
