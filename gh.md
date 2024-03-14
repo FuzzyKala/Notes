@@ -15,3 +15,9 @@ gh repo create readmeOne --public --clone
 ```
 gh repo clone repoName
 ```
+
+4. push the updated code to github
+
+```
+git push origin head:master
+```
