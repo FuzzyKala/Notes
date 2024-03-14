@@ -11,4 +11,6 @@ gh repo create readmeOne --public --clone
 ```
 
 3. Clone a repo
-   `gh repo clone repoName`
+   ```
+   gh repo clone repoName
+   ```
