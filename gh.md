@@ -21,3 +21,23 @@ gh repo clone repoName
 ```
 git push origin head:master
 ```
+
+5. remote repo
+
+check the remote repo
+
+```
+git remote -v
+```
+
+delete the remote repo
+
+```
+git remote remove origin
+```
+
+add a remote repo
+
+```
+git remote add origin https://github.com/Username/repoName.git
+```
