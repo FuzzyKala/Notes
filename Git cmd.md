@@ -6,7 +6,7 @@ git push origin head: master
 
 - remote repo
 
-check the remote repo
+--check the remote repo
 
 ```
 git remote -v
