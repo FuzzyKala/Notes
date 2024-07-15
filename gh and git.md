@@ -1,3 +1,8 @@
+install Git CLI
+```
+winget install --id GitHub.cli
+```
+
 1. Githu login
 
 ```
@@ -16,10 +21,10 @@ gh repo create readmeOne --public --clone
 gh repo clone repoName
 ```
 
-4. push the updated code to github
+4. push the updated code to GitHub
 
 ```
-git push origin head:master
+git push origin head: master
 ```
 
 5. remote repo
