@@ -1,43 +1,42 @@
-## push the updated code to GitHub
+## Push the updated code to GitHub
 
 ```
 git push origin head: master
 ```
 
-## remote repo
-### check the remote repo
+## Check the remote repo
 
 ```
 git remote -v
 ```
 
-# delete the remote repo
+## Delete the remote repo
 
 ```
 git remote remove origin
 ```
 
-# Add a remote repo
+## Add a remote repo
 
 ```
 git remote add origin https://github.com/Username/repoName.git
 ```
 
-# branch and merge
+## Branch and merge
 
-# create a branch
+## Create a branch
 
 ```
 git branch branchName
 ```
 
-# switch to the branch
+## Switch to the branch
 
 ```
 git checkout branchName
 ```
 
-# merge branch
+## Merge branch
 
 ```
 git merge branchName
