@@ -22,7 +22,6 @@ git remote remove origin
 git remote add origin https://github.com/Username/repoName.git
 ```
 
-## Branch and merge
 
 ## Create a branch
 
