@@ -1,12 +1,11 @@
-# push the updated code to GitHub
+## push the updated code to GitHub
 
 ```
 git push origin head: master
 ```
 
-# remote repo
-
-check the remote repo
+## remote repo
+##check the remote repo
 
 ```
 git remote -v
