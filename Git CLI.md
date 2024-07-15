@@ -1,7 +1,7 @@
 ## Push the updated code to GitHub
 
 ```
-git push origin head: master
+git push origin head: main
 ```
 
 ## Check the remote repo
